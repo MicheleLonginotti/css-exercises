@@ -39,18 +39,23 @@ body {
   flex: 0 0 42px;
 }
 
+.text {
+  margin-bottom: 12px;
+}
+
 .message {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   flex: 1;
-  gap: 16px;
+  gap: 4px;
 }
 
 .header {
   font-size: 20px;
   font-weight: 700;
+  margin-bottom: 4px;
 }
 
 .close-button {
